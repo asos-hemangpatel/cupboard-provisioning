@@ -7,7 +7,10 @@
         public override void Execute(ManifestContext context)
         {
             foreach (var package in new[] { 
-                "servicebusexplorer", 
+                "servicebusexplorer",
+                "microsoftazurestorageexplorer",
+                "azure-cosmosdb-emulator",
+                "azurestorageemulator",
                 "repoz", 
                 "terraform", 
                 "golang",
@@ -16,7 +19,14 @@
                 "dotnet-sdk",
                 "dotnetcore",
                 "jetbrains-rider",
-                "resharper"
+                "resharper",
+                "dotnetfx",
+                "dotnet4.6",
+                "windows-sdk-10.0",
+                "visualstudio2022professional",
+                "postman",
+                "docker-desktop",
+                "az.powershell"
             })
             {
                 context.Resource<ChocolateyPackage>(package)

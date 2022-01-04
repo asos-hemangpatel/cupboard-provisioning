@@ -10,13 +10,13 @@
             var packages = new List<string>
             {
                 "ms-vscode.powershell",
-                "ms-azuretools.vscode-docker",
                 "ms-vscode-remote.remote-wsl",
                 "vscode-icons-team.vscode-icons",
                 "hediet.vscode-drawio",
-                "vscode-azurerm-tools",
                 "azurefunctions-vscode",
-                "vscode-csharp"
+                "vscode-csharp",
+                "vscode-go",
+                "vscode-docker"
             };
             
             context.Resource<ChocolateyPackage>("vscode")
