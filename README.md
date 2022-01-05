@@ -12,7 +12,7 @@ This is built using https://github.com/cupboard-project/cupboard.
 i.e. <strong>cupboard-provisioning/src/OrderDetails.Cupboard/bin/Debug/net5.0/OrderDetails.Cupboard.exe"</strong>
 4) :boom: Your cooking on diesel! You should have all the tools you need on your machine.
 
-# Contribution :wrench:
+## Contribution :wrench:
 1. Create a feature branch from Main with a `feature/` prefix
 2. Ensure changes follow the existing coding standards around naming, structure and styling
 3. If required, update the [README.md](../README.md) with details of major changes, links and
